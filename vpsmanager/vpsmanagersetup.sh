@@ -77,7 +77,7 @@ if [ -f "/usr/sbin/ufw" ] ; then
 fi
 if [ -d "/etc/squid3/" ]
 then
-	wget http://phreaker56.obex.pw/vpsmanager/squid1.txt -O /tmp/sqd1
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/squid1.txt -O /tmp/sqd1
 	echo "acl url3 dstdomain -i $ipdovps" > /tmp/sqd2
 	wget http://phreaker56.obex.pw/vpsmanager/squid2.txt -O /tmp/sqd3
 	cat /tmp/sqd1 /tmp/sqd2 /tmp/sqd3 > /etc/squid3/squid.conf
