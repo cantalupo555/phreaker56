@@ -97,7 +97,7 @@ then
 	chmod +x /bin/delhost
 	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/expcleaner2.sh -O /bin/expcleaner
 	chmod +x /bin/expcleaner
-	wget http://phreaker56.obex.pw/vpsmanager/scripts/mudardata.sh -O /bin/mudardata
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/mudardata.sh -O /bin/mudardata
 	chmod +x /bin/mudardata
 	wget http://phreaker56.obex.pw/vpsmanager/scripts/remover.sh -O /bin/remover
 	chmod +x /bin/remover
