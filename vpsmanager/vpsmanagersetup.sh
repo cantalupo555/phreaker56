@@ -99,7 +99,7 @@ then
 	chmod +x /bin/expcleaner
 	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/mudardata.sh -O /bin/mudardata
 	chmod +x /bin/mudardata
-	wget http://phreaker56.obex.pw/vpsmanager/scripts/remover.sh -O /bin/remover
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/remover.sh -O /bin/remover
 	chmod +x /bin/remover
 	wget http://phreaker56.obex.pw/vpsmanager/scripts/sshlimiter2.sh -O /bin/sshlimiter
 	chmod +x /bin/sshlimiter
