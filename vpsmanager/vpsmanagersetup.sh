@@ -93,7 +93,7 @@ then
 	chmod +x /bin/alterarsenha
 	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/criarusuario2.sh -O /bin/criarusuario
 	chmod +x /bin/criarusuario
-	wget http://phreaker56.obex.pw/vpsmanager/scripts/delhost.sh -O /bin/delhost
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/delhost.sh -O /bin/delhost
 	chmod +x /bin/delhost
 	wget http://phreaker56.obex.pw/vpsmanager/scripts/expcleaner2.sh -O /bin/expcleaner
 	chmod +x /bin/expcleaner
