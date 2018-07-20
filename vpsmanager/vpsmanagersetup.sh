@@ -81,7 +81,7 @@ then
 	echo "acl url3 dstdomain -i $ipdovps" > /tmp/sqd2
 	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/squid2.txt -O /tmp/sqd3
 	cat /tmp/sqd1 /tmp/sqd2 /tmp/sqd3 > /etc/squid3/squid.conf
-	wget http://phreaker56.obex.pw/vpsmanager/payload.txt -O /etc/squid3/payload.txt
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/payload.txt -O /etc/squid3/payload.txt
 	echo " " >> /etc/squid3/payload.txt
 	grep -v "^Port 443" /etc/ssh/sshd_config > /tmp/ssh && mv /tmp/ssh /etc/ssh/sshd_config
 	echo "Port 443" >> /etc/ssh/sshd_config
