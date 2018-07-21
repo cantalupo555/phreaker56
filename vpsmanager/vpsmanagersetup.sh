@@ -136,7 +136,7 @@ then
 	echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/2/addhost.sh -O /bin/addhost
 	chmod +x /bin/addhost
-	wget http://phreaker56.obex.pw/vpsmanager/scripts/alterarsenha.sh -O /bin/alterarsenha
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/alterarsenha.sh -O /bin/alterarsenha
 	chmod +x /bin/alterarsenha
 	wget http://phreaker56.obex.pw/vpsmanager/scripts/criarusuario2.sh -O /bin/criarusuario
 	chmod +x /bin/criarusuario
