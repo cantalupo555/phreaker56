@@ -126,7 +126,7 @@ if [ -d "/etc/squid/" ]
 then
 	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/squid1.txt -O /tmp/sqd1
 	echo "acl url3 dstdomain -i $ipdovps" > /tmp/sqd2
-	wget http://phreaker56.obex.pw/vpsmanager/squid.txt -O /tmp/sqd3
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/squid.txt -O /tmp/sqd3
 	cat /tmp/sqd1 /tmp/sqd2 /tmp/sqd3 > /etc/squid/squid.conf
 	wget http://phreaker56.obex.pw/vpsmanager/payload.txt -O /etc/squid/payload.txt
 	echo " " >> /etc/squid/payload.txt
