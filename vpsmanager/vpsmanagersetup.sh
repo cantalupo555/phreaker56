@@ -148,7 +148,7 @@ then
 	chmod +x /bin/mudardata
 	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/remover.sh -O /bin/remover
 	chmod +x /bin/remover
-	wget http://phreaker56.obex.pw/vpsmanager/scripts/sshlimiter2.sh -O /bin/sshlimiter
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/sshlimiter2.sh -O /bin/sshlimiter
 	chmod +x /bin/sshlimiter
 	wget http://phreaker56.obex.pw/vpsmanager/scripts/alterarlimite.sh -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
