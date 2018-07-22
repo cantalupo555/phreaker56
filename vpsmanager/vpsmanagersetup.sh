@@ -150,7 +150,7 @@ then
 	chmod +x /bin/remover
 	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/sshlimiter2.sh -O /bin/sshlimiter
 	chmod +x /bin/sshlimiter
-	wget http://phreaker56.obex.pw/vpsmanager/scripts/alterarlimite.sh -O /bin/alterarlimite
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/alterarlimite.sh -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
 	wget http://phreaker56.obex.pw/vpsmanager/scripts/ajuda.sh -O /bin/ajuda
 	chmod +x /bin/ajuda
