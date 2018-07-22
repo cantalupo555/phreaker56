@@ -152,9 +152,9 @@ then
 	chmod +x /bin/sshlimiter
 	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/alterarlimite.sh -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
-	wget http://phreaker56.obex.pw/vpsmanager/scripts/ajuda.sh -O /bin/ajuda
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/ajuda.sh -O /bin/ajuda
 	chmod +x /bin/ajuda
-	wget http://phreaker56.obex.pw/vpsmanager/scripts/sshmonitor2.sh -O /bin/sshmonitor
+	wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/vpsmanager/scripts/sshmonitor2.sh -O /bin/sshmonitor
 	chmod +x /bin/sshmonitor
 	if [ ! -f "/etc/init.d/squid" ]
 	then
