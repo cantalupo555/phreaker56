@@ -27,3 +27,15 @@ chmod +x vpsmanagersetup.sh
 ./vpsmanagersetup.sh
 ```
 ------------------------------------------
+
+### TCP Tweaker 1.0
+
+O TCP Tweaker 1.0 um script experimental que altera algumas configurações de rede do sistema Linux para melhorar a velocidade e estabilidade da conexão Proxy, VPN ou Túnel SSH. Caso as alterações não melhorem a navegação e estabilidade, basta executar o script novamente para desfazê-las.<br>
+Comandos para executar:
+
+```bash
+wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/tcptweaker/tcptweaker.sh
+chmod +x tcptweaker.sh
+./tcptweaker.sh
+```
+------------------------------------------
