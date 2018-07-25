@@ -42,7 +42,8 @@ chmod +x tcptweaker.sh
 
 ### OpenVPNSetup
 
-O OpenVPNSetup é uma versão modificada do script [openvpn-install](https://github.com/Nyr/openvpn-install/) para funcionar com o protocolo TCP com interface em português. Ele serve para facilitar a configuração de servidor OpenVPN e a criação de certificados de usuários (arquivos .ovpn) em servidores VPS ou Cloud Linux que rodem Debian, Ubuntu ou CentOS sem o utilizador precisar de conhecimento técnico.<br>
+O OpenVPNSetup é uma versão modificada do script [openvpn-install](https://github.com/Nyr/openvpn-install/) para funcionar com o protocolo TCP com interface em português.<br>
+Ele serve para facilitar a configuração de servidor OpenVPN e a criação de certificados de usuários (arquivos .ovpn) em servidores VPS ou Cloud Linux que rodem Debian, Ubuntu ou CentOS sem o utilizador precisar de conhecimento técnico.<br>
 É recomendado a leitura deste tutorial caso deseje usar junto com Proxy no Android: [Como usar o Injector Python junto com OpenVPN no Android](https://github.com/cantalupo555/phreaker56/blob/master/Tutoriais/Injector_Python_OpenVPN_Android.pdf)<br>
 Comandos para instalar:
 
