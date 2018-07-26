@@ -48,8 +48,21 @@ Ele serve para facilitar a configuração de servidor OpenVPN e a criação de c
 Comandos para instalar:
 
 ```bash
-wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/openvpn/openvpnsetup.sh
+wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/openvpn/openvpnsetup.sh -O /bin/openvpnsetup
 chmod +x /bin/openvpnsetup
 openvpnsetup
+```
+------------------------------------------
+
+### User Backup 1.2
+
+O User Backup 1.2 é um script experimental que serve para copiar todos os usuários, senhas e permissões de um servidor para outro, evitando o trabalho de ter que recriar todos os usuários novamente. Ferramenta útil para quem administra servidores de túnel SSH com muitos usuários.<br>
+O script cria um arquivo chamado backup.vps que deve ser baixado e enviado para o novo servidor via SFTP. É importante manter esse arquivo em local seguro para manter a segurança do seu servidor. O script não captura nem envia nenhum dado a terceiros, ele apenas cria um pacote com os arquivos do sistema que contém as senhas criptografadas dos usuários.<br>
+Para utilizadores do VPS Manager 2.0, o script também copia a base de dados dos usuários, o arquivo usuarios.db. Então se você for restaurar num novo servidor, configure-o com o VPS Manager 2.0 antes de restaurar o backup, assim evita o trabalho de ter que configurar o limite de conexões de cada usuário manualmente.<br>
+Comandos para executar:
+```bash
+wget https://raw.githubusercontent.com/cantalupo555/phreaker56/master/userbackup/userbackup.sh
+chmod +x userbackup.sh
+./userbackup.sh
 ```
 ------------------------------------------
